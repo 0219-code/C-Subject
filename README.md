@@ -1,4 +1,5 @@
-<br>
+<hr>
+
 # C-Subject
 
 Some small C++ projects and low-level utilities I have developed.
@@ -12,7 +13,8 @@ Some small C++ projects and low-level utilities I have developed.
 
 ## Build
 Tested with MinGW-w64 (GCC 16.2.0) and Clang/LLVM 22.0.0 on Windows 11.
-<br>
+<hr>
+
 # C-Subject
 
 Windows 底层的野生 C++ 工具集，封装了各种 Windows API 和字面量。
@@ -25,4 +27,4 @@ Windows 底层的野生 C++ 工具集，封装了各种 Windows API 和字面量
 2. **C++ 标准**：使用了 `if constexpr` 等特性，请务必使用 `C++17` 或更高版本编译。
 3. **线程安全**：内部使用了 `mutable` 缓存转换结果，**非线程安全**，多线程操作时请自行加锁。
 4. **隐式转换**：`ToSTR` 会自动进行宽窄字符转换，但有可能会导致意外的内存拷贝，请留意。
-5. <br>
+<hr>
